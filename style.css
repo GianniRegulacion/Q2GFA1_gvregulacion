@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    background-color: hotpink;
+    color:white
+}
+
+
+
+.navbar{
+    padding: 22px;
+    text-align:right;
+    background-color: #fbd8a3;
+}
+.links{
+    display: inline;
+}
+.links a{
+    text-decoration: none;
+    font-family: "Chelsea Market" , sans-serif ;
+    font-size: large;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: solid black;
+    opacity: .7;
+    transition: .4s;
+}
+
+.links a:hover{
+    opacity: 1;
+    transition: .4s;
+    font-size: 25px;
+}
+
+#vidbg {
+    width: 100vw;
+    height: 100vh;
+    object-fit:cover;
+    position:fixed;
+    z-index: index 1;
+}
+
+
+.sprite {
+	background: url('imgs/spriteG.png') no-repeat -66px -72px;
+	width: 67px;
+	height: 66px;
+}
+
+*/
+
+#vidbg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width:100%;
+    min-height: 100%;
+}
+.navbar{
+    padding: 22px;
+    text-align:right;
+    background-color: #fbd8a3;
+    position: relative;
+}
+
+
+
+
+
+.links{
+    display: inline;
+}
+.links a{
+    text-decoration: none;
+    font-family: "Chelsea Market";
+    font-size: large;
+    padding-left: 8px;
+    padding-right: 8px;
+    opacity: .7;
+    transition: .4s;
+}
+
+.links a:hover{
+    opacity: 1;
+    transition: .4s;
+    font-size: 20px;
+}
+.rounded{
+    border-radius: 5px;
+}
+
+.contentindex{
+    display: flex;
+    margin: 9vw;
+    text-align: left;
+}
+
+.header{
+    color: #ffe8cf;
+    float: right;
+    margin-left: 5vw;
+    font-size: xx-large;
+    font-family: 'Archivo Black', serif;
+}
